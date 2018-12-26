@@ -39,7 +39,7 @@ composer install Shpontex\LaravelQL
     result: "count"
 
     // Get max
-    result: ["max","price]
+    result: ["max","price"]
 }
 ```
 * select: String | Array, https://laravel.com/docs/5.7/queries#selects\
