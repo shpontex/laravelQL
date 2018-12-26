@@ -30,7 +30,7 @@ composer install Shpontex\LaravelQL
     result: "first"
 
 // Pluck result
-    result: ["pluck]
+    result: ["pluck",["name","slug"]]
 }
 ```
 * select: String | Array
