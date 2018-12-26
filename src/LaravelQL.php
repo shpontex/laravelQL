@@ -51,13 +51,7 @@ class laravelQL
     public function parse($query)
     {
         $this->query = $query;
-        $where = request()->where;
-        $orWhere = request()->orWhere;
-        $whereNull = request()->whereNull;
-        $whereNotNull = request()->whereNotNull;
-        $whereColumn = request()->whereColumn;
         $select = request()->select;
-        $first = request()->first;
         $orderBy = request()->orderBy;
         $orderByDesc = request()->orderByDesc;
         $result = request()->result ?? 'get';
@@ -72,6 +66,11 @@ class laravelQL
         $doesntHave = request()->doesntHave;
         $withCount = request()->withCount;
         $with = request()->with;
+        $where = request()->where;
+        $orWhere = request()->orWhere;
+        $whereNull = request()->whereNull;
+        $whereNotNull = request()->whereNotNull;
+        $whereColumn = request()->whereColumn;
 
         try {
             if ($where) {
