@@ -1,0 +1,19 @@
+{
+    "name": "shpontex/laravel-ql",
+    "description": "Send query to your API",
+    "type": "libary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shpontex",
+            "email": "radowan@owndays.co.jp"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shpontex\\LaravelQL\\": "src/"
+        }
+    }
+}
