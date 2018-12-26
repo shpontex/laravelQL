@@ -5,7 +5,7 @@ Send query to your API
 LaravelQL let you send the exact query that you need to your API.\
 It uses the most popular Laravel query methods.
 ### Example
-```
+```js
 axios.get("products",{
     params: {
         select: ["name","slug"],
@@ -24,10 +24,11 @@ composer install Shpontex\LaravelQL
 
 ### Methods
 * result: String | Array, Default : get
-```
+```js
 {
 // Get One result
     result: "first"
+
 // Pluck result
     result: ["pluck]
 }
