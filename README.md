@@ -1,4 +1,4 @@
-# laravelQL
+# laravelQL (this project is under construction)
 Send query to your API
 
 ## Getting Started
